@@ -24,4 +24,4 @@ The application is not responsive and works best in browsers that natively suppo
 - npm run serve
 
 ### TODO
-- use SCSS
+- Refactor
