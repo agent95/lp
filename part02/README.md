@@ -30,3 +30,16 @@ TDD Approach. RED | GREEN | REFACTOR
 ... if false, move to the next element
 - if stack is empty, isBalanced returns true, else return false.
 - isBalanced returns true ? print "Balanced" : print "Not Balanced", using printOutput()
+
+#### Solution includes
+ - /src/
+ - /src/js/
+ - /src/test/
+
+ #### For Demo
+ - npm install
+ - npm run test
+
+#### To DO
+
+HTML User Interface
