@@ -22,14 +22,14 @@ TDD Approach. RED | GREEN | REFACTOR
 
 - Convert string to array, inputArray
 - Loop through array items (characters)
-- check if the character is a bracket using isBracket()
- if true , check if its an openBracket using isOpenBracket()
-...if true, push the character onto the stack, openBracketStack
-... if false, check if character matches the top of openBracketStack, using isMatch()
-... if true, pop the openBracketStack
-... if false, move to the next element
-- if stack is empty, isBalanced returns true, else return false.
-- isBalanced returns true ? print "Balanced" : print "Not Balanced", using printOutput()
+- check if the character is a bracket using **isBracket()**
+ if true , check if its an openBracket using **isOpenBracket()**
+ - if true, push the character onto the stack, **openBracketStack**
+   -if false, check if character matches the top of openBracketStack, using **isMatch()**
+   -if true, pop the **openBracketStack**
+   -if false, move to the next element
+- if stack is empty, **isBalanced** returns true, else return false.
+- isBalanced returns true ? print "Balanced" : print "Not Balanced", using **printOutput()**
 
 #### Solution includes
  - /src/
@@ -42,5 +42,5 @@ TDD Approach. RED | GREEN | REFACTOR
 
 #### To DO
 
-HTML User Interface
-...Refactor
+- HTML User Interface
+- Refactor
