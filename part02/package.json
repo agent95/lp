@@ -1,0 +1,21 @@
+{
+  "name": "balanced-brackets",
+  "version": "1.0.0",
+  "description": "Balanced Brackets Challenge",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "build": ""
+  },
+  "author": "Roy Mogoko",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.4"
+  }
+}
