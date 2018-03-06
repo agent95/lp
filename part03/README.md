@@ -14,6 +14,7 @@ Web App and Mobile App
 
 ### Service Layer : 
 A service publishes an event when its data changes, other services consume the event and update their data.
+
 Each service has a set of responsibilities:
 
  - **Account Service** : Managing user accounts
