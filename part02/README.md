@@ -9,6 +9,11 @@ Given a string consisting of entirely characters ()[]{}, determine if its "balan
 ### Solution
 TDD Approach. RED | GREEN | REFACTOR
 
+Start with failing tests, code to make them pass then refactor the code.
+
+Test cases using:
+- Karma, Jasmine and PhantomJs
+
 #### STEPS:
     1. input a string e.g '()[]{}(([]))' 
     2. scan the string characters, check if character is a bracket,
